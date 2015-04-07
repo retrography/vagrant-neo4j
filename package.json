@@ -1,8 +1,8 @@
 {
-  "name": "vagrant-neo4j",
-  "version": "0.0.1",
-  "author": "Bret Copeland <bret@atlantisflight.org>",
-  "description": "A simple Vagrant script for setting up a Neo4j VM.",
+  "name": "ubuntu-neo4j",
+  "version": "0.0.2",
+  "author": "Mahmood S. Zargar <mahmood@gmail.com>",
+  "description": "Launches an Ubuntu 14.04/Neo4j 2.2 VM on Digital Ocean using Vagrant.",
   "scripts": {
     "start": "vagrant up",
     "stop": "vagrant destroy -f"
@@ -10,7 +10,9 @@
   "keywords": [
     "neo4j",
     "vagrant",
-    "virtualbox",
+    "ubuntu",
+    "trusty",
+    "digital ocean",
     "vm"
   ],
   "analyze": false,
